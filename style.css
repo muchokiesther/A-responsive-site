@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+  font-family: 'Montserrat', sans-serif;
+}
+
+.area_one{
+    background: url(images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: cover;
+    height: 100.5vh;
+     text-align: center;
+     position: relative;
+     color: white;
+
+ 
+}
+
+
+
+.area_one li {
+    display: flex;
+    flex-direction: row;
+     padding:0.5250em 1.2500em; 
+  /* justify-content: space-between; */
+    display:inline-block;
+    
+}
+
+.logins{
+    display: flex;
+    flex-direction: row;
+    display:inline-block;
+    margin-left: 12.5rem;
+    
+}
+
+.area_one h2{
+    display:inline-block;
+    padding:0.5250em 1.2500em;
+    margin-right: 2.5rem;
+}
+
+.becaumememberbtn{
+    display:inline-block;
+    padding:1.5250em 2.2500em;
+    background-color: blue;
+}
+
+.textinarea_one{
+    padding-top: 7.969rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:47.5vh;
+    text-align: center;
+}
+.textinarea_one h1{
+    color: white;
+    font-size: 70px;
+    padding-bottom: 60.5px;
+}
+.textinarea_one p{
+    color: white;
+    font-size: 20.5px;
+    padding-bottom: 25px;
+}
+
+.buttons{
+    display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  
+
+}
+
+.btn1{
+    display: inline-flex;
+border-radius: 30px;
+padding: 15px;
+width: 170px;
+text-align: center;
+margin-right: 10px;
+
+}
+
+.btn2{
+    display: inline-flex;
+    border-radius:30px;
+    padding: 15px;
+    width:170px ;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.area_two{
+    display: flex;
+    gap: 4%;
+    flex-wrap: wrap;
+    justify-content: center;
+ background-color: rgb(223, 221, 221);
+
+ 
+
+}
+
+
+.area_two ion-icon {
+    height: 4em;
+    width: 3.5em;
+    color:blue;
+}
+
+
+
+.one{
+    min-height: 150px;
+    transform: translate(10px, -85px);
+   background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2500em;
+    padding-left: 40px;
+    padding-right: 40px;
+
+
+   
+}
+.two{
+
+ min-height: 150px;
+ transform: translate(10px, -85px);
+background-color: white;
+ display: flex;
+ flex-direction: column;
+ padding: 1.2500em;
+ padding-left: 40px;
+    padding-right: 40px;
+
+
+}
+.three{
+    min-height: 150px;
+    transform: translate(10px, -85px);
+   background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2500em;
+    padding-left: 40px;
+    padding-right: 40px;
+
+
+}
+
+
+
+
+
+.area_three{
+    display: flex;
+    gap: 4%;
+    height: 50%;
+  justify-content: center;
+  flex-wrap: wrap;
+ background-color: blue;
+ padding: 3.2500em;
+ align-items: center;
+ 
+}
+
+.three_one{
+    min-height: 150px;
+background-color: white;
+ display: flex;
+ flex-direction: column;
+padding: 2rem;
+text-align: center;
+
+}
+
+.three_one ion-icon {
+    height: 5em;
+    width: 4.5em;
+    color:blue;
+justify-content: center;
+display: block;
+margin: 0 auto;
+}
+
+
+.three_two ion-icon {
+    height: 5em;
+    width: 4.5em;
+    color:blue;
+justify-content: center;
+display: block;
+margin: 0 auto;
+  }
+
+.three_two{
+ min-height: 150px;
+    background-color: white;
+     display: flex;
+     flex-direction: column;
+     padding: 2rem;
+     text-align: center;
+     
+}
+
+
+.three_three{
+    min-height: 150px;
+    background-color: white;
+     display: flex;
+     flex-direction: column;
+     padding: 2rem;
+     text-align: center;
+   
+}
+
+.three_three ion-icon {
+    height: 5em;
+    width: 4.5em;
+    color:blue;
+justify-content: center;
+display: block;
+margin: 0 auto;
+}
+
+.area_four{
+    background-color: antiquewhite;
+}
+
+.midsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.ratings_card{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap:2rem;
+align-items: center;
+
+}
+
+
+.ratings_card p{
+    padding-top: 30px;
+}
+.userone{
+    /* height: 80%; */
+    background-color: white;
+    border: 1px solid grey;
+    flex-direction: column;
+    padding-top: 30px; 
+    align-content: center;
+    height:fit-content;
+    text-align: center;
+    padding-bottom: 40px;
+ 
+}
+
+.ratings_card img{
+    width:50%;
+    align-items: center;
+}
+
+.usertwo{
+    background-color: white;
+    border: 1px solid grey;
+    flex-direction: column;
+    padding-top: 30px; 
+    align-content: center;
+    height:fit-content;
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+.userthree{
+    background-color: white;
+    border: 1px solid grey;
+    flex-direction: column;
+    padding-top: 30px; 
+    align-content: center;
+    height:fit-content;
+    text-align: center;
+    padding-bottom: 40px;
+    
+    
+
+}
+
+.ratings_card ion-icon{
+    width: 20px;
+  height: 40px;
+    color: yellow;
+    padding-top: 10px;    
+
+}
+
+
+.areafive{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+    gap:5.5%;
+    padding-top: 200px;
+
+}
+
+.areafive img{
+    width:5%;
+    height:10%;
+}
+
+
+
+.subscription{
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    justify-content: center;
+    margin-left: 28rem;
+    margin-right: 28rem;
+    padding: 2.4rem;   
+    margin-top: 4.5em;
+    margin-bottom: 7.5em;
+    
+}
+
+.area_six{
+    text-align: center;
+}
+
+.price_info{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    padding-top: 5.5rem;
+    
+    
+}
+
+
+.area_seven{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap:15rem;
+    background-color: #041e42;
+    align-items: center;
+    justify-content:center ;
+    color: #ffff;
+}
+
+
+.continent_img{
+padding-top: 5.5rem;
+min-height: 0%;
+
+}
